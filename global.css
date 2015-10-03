@@ -1,0 +1,38 @@
+body{
+  background-image: url(img/2.jpg);
+  background-size: 100% 100%;
+}
+h1{
+  text-align: center;
+  font-family: Arial;
+  font-size: 3em;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+input{
+  text-align: right;
+  padding: 5px  5px;
+  font-size:large;
+  margin-left: 8%;
+
+}
+
+th{
+  font-family: Arial;
+  font-size: 1.2em;
+}
+
+th, td{
+  padding-bottom: 5%;
+}
+
+table {
+  margin-left: 14%;
+}
+
+#converted {
+  color: red;
+  font-weight: bold;
+  font-size:large;
+}
