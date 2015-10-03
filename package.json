@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/RebeccaMartinez/ConversorTemperatura/issues"
   },
-  "homepage": "https://github.com/RebeccaMartinez/ConversorTemperatura#readme"
+  "homepage": "https://github.com/RebeccaMartinez/ConversorTemperatura#readme",
+  "devDependencies": {
+    "chai": "^3.3.0"
+  }
 }
