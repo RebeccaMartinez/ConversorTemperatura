@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/RebeccaMartinez/ConversorTemperatura#readme",
   "devDependencies": {
-    "chai": "^3.3.0"
+    "chai": "^3.3.0",
   }
 }
