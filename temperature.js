@@ -18,9 +18,11 @@ function calculate() {
       result = (num - 32)*5/9;
       result = result.toFixed(1)+" Celsius"
     }
+    document.getElementById("converted").setAttribute("col", "gr");
     converted.innerHTML = result;
   }
   else {
+    document.getElementById("converted").setAttribute("col", "rd");
     converted.innerHTML = "ERROR! Try something like '-4.2C' instead";
   }
 }
