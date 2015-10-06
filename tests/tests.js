@@ -11,6 +11,11 @@ suite('temperature', function() {
         calculate();
         assert.deepEqual(converted.innerHTML, "113.0 Farenheit");
     });
+    test('-5.4F = -20.8 Celsius', function() {
+        original.value = "-5.4F";
+        calculate();
+        assert.deepEqual(converted.innerHTML, "-20.8 Celsius");
+    });
     test('5X = error', function() {
         original.value = "5X";
         calculate();
