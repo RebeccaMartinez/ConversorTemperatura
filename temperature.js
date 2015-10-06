@@ -34,6 +34,6 @@ function calculate() {
   }
   else {
     document.getElementById("converted").setAttribute("col", "rd");
-    converted.innerHTML = "ERROR! Try something like '-4.2C' instead";
+    converted.innerHTML = "ERROR! Introduzca algo tipo '-4.2C', '78K', '23f' ...";
   }
 }
