@@ -22,5 +22,8 @@
   "homepage": "https://github.com/RebeccaMartinez/ConversorTemperatura#readme",
   "devDependencies": {
     "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-util": "^3.0.6"
   }
 }
