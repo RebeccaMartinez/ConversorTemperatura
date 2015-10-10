@@ -10,6 +10,15 @@ h1{
   padding-bottom: 3%;
 }
 
+p{
+  padding-left: 15%;
+  padding-right: 10%;
+  font-family: Arial;
+  font-size: 1.2em;
+  font-style: bolder;
+  text-align: center;
+}
+
 input{
   text-align: right;
   padding: 5px  5px;
@@ -29,7 +38,8 @@ th, td{
 }
 
 table {
-  margin-left: 14%;
+  padding-top: 2%;
+  margin-left: 30%;
 }
 
 #converted {
