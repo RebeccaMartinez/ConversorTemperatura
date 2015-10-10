@@ -16,10 +16,8 @@ function calculate() {
         exp = parseInt(exp);
         var a = 1;
         var b = 10;
-
         if(exp<0){
             exp = -exp;
-
             while(a < exp){
               b = b * 10;
               a++;
