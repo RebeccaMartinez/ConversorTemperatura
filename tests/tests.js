@@ -31,11 +31,6 @@ suite('temperature', function() {
         calculate();
         assert.deepEqual(converted.innerHTML, "-12795.6 Celsius, -12522.4 Kelvin");
     });
-    test('-2.3e4F = -12795.6 Celsius, -12522.4 Kelvin', function() {
-        original.value = "-2.3e4F";
-        calculate();
-        assert.deepEqual(converted.innerHTML, "-12795.6 Celsius, -12522.4 Kelvin");
-    });
     test('Resultado == String', function() {
        original.value = "-2.4K";
        calculate();
@@ -46,8 +41,6 @@ suite('temperature', function() {
       calculate();
       assert.isNotNull(converted.innerHTML);
   });
-
-
     test('5X = error', function() {
         original.value = "5X";
         calculate();
